@@ -364,10 +364,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 
-#glassbox {
-  -webkit-backdrop-filter: blur(15px);
-  backdrop-filter: blur(15px);
-  background: none;
+#glassbox, #lobby {
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  background: #ffffff1a;
+  border: 2px solid #ffffff4d;
   border-radius: 30px;
   box-shadow: 0 1px 2px #ffffff40, 0 0 1px 2px #ffffff21;
 }
@@ -394,11 +395,17 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+#lobby {
+  animation: 1s forwards expand;
+}
+
 @keyframes expand {
   0% {
+    width: 30%;
   }
 
   100% {
+    width: 85%;
   }
 }
 

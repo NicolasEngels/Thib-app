@@ -2917,7 +2917,7 @@ const App = ()=>{
                     element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeJsxDefault.default), {}, void 0, false, void 0, void 0)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 9,
+                    lineNumber: 11,
                     columnNumber: 11
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -2925,7 +2925,7 @@ const App = ()=>{
                     element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _lobbyJsxDefault.default), {}, void 0, false, void 0, void 0)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 10,
+                    lineNumber: 12,
                     columnNumber: 11
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
@@ -2933,25 +2933,25 @@ const App = ()=>{
                     element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeJsxDefault.default), {}, void 0, false, void 0, void 0)
                 }, void 0, false, {
                     fileName: "src/index.jsx",
-                    lineNumber: 11,
+                    lineNumber: 13,
                     columnNumber: 11
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/index.jsx",
-            lineNumber: 8,
+            lineNumber: 10,
             columnNumber: 9
         }, undefined)
     }, void 0, false, {
         fileName: "src/index.jsx",
-        lineNumber: 7,
+        lineNumber: 9,
         columnNumber: 7
     }, undefined);
 };
 _c = App;
 (0, _reactDomDefault.default).render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "src/index.jsx",
-    lineNumber: 19,
+    lineNumber: 21,
     columnNumber: 17
 }, undefined), document.getElementById("root"));
 var _c;
@@ -31992,28 +31992,22 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 const Lobby = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        id: "body",
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("body", {
+        className: "h-screen w-screen flex flex-col items-center justify-center bg-bggrad bg-cover bg-no-repeat box-border font-orbitron",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                id: "bg"
+                id: "main"
             }, void 0, false, {
                 fileName: "src/lobby.jsx",
                 lineNumber: 4,
                 columnNumber: 7
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 id: "lobby",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                    children: "LOBBY"
-                }, void 0, false, {
-                    fileName: "src/lobby.jsx",
-                    lineNumber: 7,
-                    columnNumber: 9
-                }, undefined)
+                className: "w-[30%] h-[80%] flex flex-col items-center justify-center"
             }, void 0, false, {
                 fileName: "src/lobby.jsx",
-                lineNumber: 6,
+                lineNumber: 5,
                 columnNumber: 7
             }, undefined)
         ]
