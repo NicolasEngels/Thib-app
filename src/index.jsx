@@ -1,7 +1,7 @@
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import Home from "./Home.jsx";
-import LOBBY from "./lobby.jsx";
+import Home from "./home.jsx";
+import Lobby from "./lobby.jsx";
 
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
       <Router>
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/lobby" element={<LOBBY />}></Route>
+          <Route path="/lobby" element={<Lobby />}></Route>
           <Route path="*" element={<Home />}></Route>
         </Routes>
       </Router>
